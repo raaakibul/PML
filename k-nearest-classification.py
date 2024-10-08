@@ -16,3 +16,5 @@ clf = KNeighborsClassifier(n_neighbors=3)
 clf.fit(x_train, y_train)
 
 print(clf.score(x_test, y_test))
+
+# clf.predict(['benign'])
