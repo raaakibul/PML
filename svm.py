@@ -17,5 +17,5 @@ clf.fit(x_train, y_train)
 clf2 = KNeighborsClassifier(n_neighbors=3)
 clf2.fit(x_train, y_train)
 
-print(clf.score(x_test, y_test))
-print(clf2.score(x_test, y_test))
+print(f"SVC: {clf.score(x_test, y_test)}")
+print(f"KNN:{clf2.score(x_test, y_test)}")
